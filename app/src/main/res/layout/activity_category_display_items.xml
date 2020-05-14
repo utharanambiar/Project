@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".CategoryDisplayItemsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/r20"
+        >
+        <TextView
+            android:id="@+id/categoreess"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CATEGORIES"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="28dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/r20"
+        android:layout_marginTop="120dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bed1"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:focusable="true"
+            android:src="@drawable/iconbed"
+            android:text="bed"
+            android:textAlignment="center" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/dining1"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:focusable="true"
+            android:src="@drawable/icontable" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
+        <ImageView
+            android:id="@+id/cupboard1"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+
+            android:focusable="true"
+
+            android:src="@drawable/iconwardrobe" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/k1"
+        android:layout_marginLeft="60dp"
+        android:text="BEDS"
+        android:layout_marginTop="320dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/k2"
+        android:layout_toRightOf="@+id/k1"
+
+        android:layout_marginLeft="50dp"
+        android:text="DINING"
+        android:textSize="18dp"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/k3"
+        android:layout_toRightOf="@+id/k2"
+
+        android:layout_marginLeft="35dp"
+        android:text="WARDROBE"
+        android:textSize="18dp"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="380dp"
+        android:background="@android:color/darker_gray"/>
+    <LinearLayout
+        android:id="@+id/linear_category_layout2"
+
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/linear_category_layout1"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:id="@+id/sofa1"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:focusable="true"
+            android:src="@drawable/iconsofa" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/door1"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:focusable="true"
+            android:src="@drawable/icondoor" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/lamp1"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:focusable="true"
+            android:src="@drawable/iconlamp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/k4"
+        android:layout_marginLeft="60dp"
+        android:text="SOFA"
+        android:layout_marginTop="520dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/k5"
+        android:layout_toRightOf="@+id/k1"
+
+        android:layout_marginLeft="50dp"
+        android:text="DOORS"
+        android:textSize="18dp"
+
+        android:layout_marginTop="520dp"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/k6"
+        android:layout_toRightOf="@+id/k2"
+        android:layout_marginLeft="50dp"
+        android:text="LAMPS"
+        android:textSize="18dp"
+        android:layout_marginTop="520dp"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+</RelativeLayout>
